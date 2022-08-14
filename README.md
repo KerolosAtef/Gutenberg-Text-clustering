@@ -1,5 +1,5 @@
 ﻿# Table of Contents
-[1. Introduction](#_Toc106538166)
+[1. Overview](#_Toc106538166)
 
 [2. Methodology](#_Toc106538167)
 
@@ -51,8 +51,10 @@
 
 
 
-# 1. Introduction
-Following the last assignment, we took the same cleaning and preprocessing code and we adjusted it to follow this assignment’s rules. We chose five books of different genres. we put into consideration that these books are large to generate enough data to make a clustering model.
+# 1. Overview
+In this project we selected some books from Gutenburg library from the same category and then select random paragraphs from then and labeled this paragraphs by the book name.</br>
+After creating the dataset we used many transformation algorithms to embed the text to numbers for modeling process like (BERT ,TF_IDF,BOW,Skip gram ,Glove ,LDA ,Word2Vec ,Doc2Vec)<br>
+After this we tried many ML algorithms and chose the champion one which achieved the highest accuracy.<br>
 
 # 2. Methodology
 ## `      `2.1 data preparing and Preprocessing
